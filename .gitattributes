@@ -1,0 +1,6 @@
+# Ignore generated output files from GitHub's language statistics (Linguist)
+output/* linguist-generated
+
+# Treat the prompt string file as Python for statistics if desired, or vendor it
+# In this case we just ensure Python files are counted natively
+*.py linguist-detectable=true
